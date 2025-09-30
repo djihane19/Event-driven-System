@@ -1,0 +1,11 @@
+create redis db 
+download RedisInsight to motor the db
+host is the public endpoint
+install fastapi with: pip install fastapi
+create main.py
+import the cors middleware to connect ur frontend without prbls
+install redis with pip install redis_om this package useful to connect to the redis db
+connect ur db via get_redis_connection
+run to test : python -m uvicorn main:app --reload   
+if it runs withut prb the db is connected successfully
+create the delevery and envent models after importing HashModel
